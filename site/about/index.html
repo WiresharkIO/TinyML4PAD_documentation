@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>About - Tiny-ML based chewing pattern detection in STM32</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "About";
+        var mkdocs_page_input_path = "about.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Tiny-ML based chewing pattern detection in STM32
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">About</a>
+    <ul class="current">
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Tiny-ML based chewing pattern detection in STM32</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">About</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <hr />
+<h2 id="what-is-this-section-about">What is this section about ?</h2>
+<p>Consider a Black-Box where you are getting values from a proximity sensor, as a time-series data. You want to predict and do inference with those values for certain classes using best approaches, such just it is optimized to full possibility and doesn't create any overhead during real-time communications.</p>
+<p>You have the sensor and a microcontroller board (in this repository mostly everything is related to STM32-ULP).</p>
+<hr />
+<blockquote>
+<p>An example of how configuration can be done in label-studio to represent different classes:</p>
+</blockquote>
+<pre><code class="language-xml">&lt;View&gt;
+
+&lt;Header value=&quot;Time Series classification&quot; style=&quot;font-weight: normal&quot;/&gt;
+
+&lt;Choices name=&quot;pattern&quot; toName=&quot;ts&quot;&gt;
+    &lt;Choice value=&quot;Left_Prox&quot;/&gt;
+&lt;/Choices&gt;
+
+&lt;TimeSeriesLabels name=&quot;label&quot; toName=&quot;ts&quot;&gt;
+    &lt;Label value=&quot;phase_1&quot; background=&quot;red&quot;/&gt;
+    &lt;Label value=&quot;phase_2&quot; background=&quot;green&quot;/&gt;
+    &lt;Label value=&quot;phase_3&quot; background=&quot;yellow&quot;/&gt;
+    &lt;Label value=&quot;phase_4&quot; background=&quot;blue&quot;/&gt;
+&lt;/TimeSeriesLabels&gt;
+
+&lt;TimeSeries name=&quot;ts&quot; value=&quot;$Left_Prox&quot; valueType=&quot;url&quot;&gt;
+    &lt;Channel column=&quot;Left_Prox&quot;/&gt;
+&lt;/TimeSeries&gt;
+
+&lt;/View&gt;
+</code></pre>
+<hr />
+<hr />
+<h1 id="feature-engineering">Feature Engineering</h1>
+<hr />
+<p><strong>Transforming raw data into features</strong></p>
+<p><strong>The performance of ML models heavily depends on the relevance of the features used to train them.</strong></p>
+<p>5 processes in feature engineering:
+--&gt;Feature Creation
+--&gt;Feature Transformation
+--&gt;Feature Extraction
+--&gt;Feature Selection
+--&gt;Feature Scaling</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

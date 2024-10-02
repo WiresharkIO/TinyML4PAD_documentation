@@ -1,0 +1,6 @@
+site_name: Tiny-ML based chewing pattern detection in STM32
+nav:
+  - Home: index.md
+  - About: about.md
+  
+theme: readthedocs
