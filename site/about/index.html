@@ -77,9 +77,14 @@
 <p>Consider a Black-Box where you are getting values from a proximity sensor, as a time-series data. You want to predict and do inference with those values for certain classes using best approaches, such just it is optimized to full possibility and doesn't create any overhead during real-time communications.</p>
 <p>You have the sensor and a microcontroller board (in this repository mostly everything is related to STM32-ULP).</p>
 <hr />
-<blockquote>
+<h2 id="data-collection-and-annotation">Data Collection and Annotation</h2>
+<p>One possible approach for data annotation after raw data collection from sensors:</p>
+<ul>
+<li><strong>Label Studio</strong>
+<a href="https://labelstud.io/" target="_blank">Visit Label Studio</a></li>
+</ul>
+<p><img alt="img width=&quot;100&quot;" src="../images/pipeline_annotated_TS_TCD.png" /></p>
 <p>An example of how configuration can be done in label-studio to represent different classes:</p>
-</blockquote>
 <pre><code class="language-xml">&lt;View&gt;
 
 &lt;Header value=&quot;Time Series classification&quot; style=&quot;font-weight: normal&quot;/&gt;
@@ -101,6 +106,9 @@
 
 &lt;/View&gt;
 </code></pre>
+<hr />
+<p><strong>How the data looks like after annotation of each phase of a chewing sequence:</strong></p>
+<p><img alt="img width=&quot;100&quot;" src="../images/annotated_TS_TCD.png" /></p>
 <hr />
 <hr />
 <h1 id="feature-engineering">Feature Engineering</h1>
