@@ -11,5 +11,5 @@ For full project details visit [TinyML4PAD](https://github.com/WiresharkIO/TinyM
 
     mkdocs.yml    # The configuration file.
     docs/
-        main.md  # The documentation homepage.
+        index.md  # The documentation homepage.
         about.md # Other markdown pages, images and other files.

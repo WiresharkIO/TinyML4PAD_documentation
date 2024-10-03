@@ -1,7 +1,7 @@
 site_name: Tiny-ML based chewing pattern detection in STM32
 
 nav:
-  - Tiny-ML@IES: main.md
+  - Tiny-ML@IES: index.md
   - Contents: about.md
   
 theme: readthedocs
