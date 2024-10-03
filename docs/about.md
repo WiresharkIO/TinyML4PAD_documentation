@@ -63,3 +63,20 @@ __The performance of ML models heavily depends on the relevance of the features 
 -->Feature Extraction
 -->Feature Selection
 -->Feature Scaling
+
+
+
+---------------------------
+# Feature Engineering 
+---------------------------
+
+__Transforming raw data into features__
+
+__The performance of ML models heavily depends on the relevance of the features used to train them.__
+
+5 processes in feature engineering:
+-->Feature Creation
+-->Feature Transformation
+-->Feature Extraction
+-->Feature Selection
+-->Feature Scaling
