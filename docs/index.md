@@ -1,6 +1,6 @@
 # MkLorum
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+For full project details visit [TinyML4PAD](https://github.com/WiresharkIO/TinyML4PAD.git).
 
 ## Commands
 
