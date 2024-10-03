@@ -1,5 +1,5 @@
 ----------------------------
-What is this section about ?
+# What is this section about ?
 ---------------------------
 
 Consider a Black-Box where you are getting values from a proximity sensor, as a time-series data. You want to predict and do inference with those values for certain classes using best approaches, such just it is optimized to full possibility and doesn't create any overhead during real-time communications.
@@ -8,7 +8,7 @@ You have the sensor and a microcontroller board (in this repository mostly every
 
 
 ---------------------------
-Data Collection and Annotation
+## Data Collection and Annotation
 ---------------------------
 
 One possible approach for data annotation after raw data collection from sensors:
@@ -48,23 +48,6 @@ __How the data looks like after annotation of each phase of a chewing sequence:_
 
 
 ---------------------------
-
----------------------------
-# Feature Engineering 
----------------------------
-
-__Transforming raw data into features__
-
-__The performance of ML models heavily depends on the relevance of the features used to train them.__
-
-5 processes in feature engineering:
--->Feature Creation
--->Feature Transformation
--->Feature Extraction
--->Feature Selection
--->Feature Scaling
-
-
 
 ---------------------------
 # Feature Engineering 
