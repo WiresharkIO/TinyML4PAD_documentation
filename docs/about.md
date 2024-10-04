@@ -1,11 +1,3 @@
-----------------------------
-# What is this section about ?
----------------------------
-
-Consider a Black-Box where you are getting values from a proximity sensor, as a time-series data. You want to predict and do inference with those values for certain classes using best approaches, such just it is optimized to full possibility and doesn't create any overhead during real-time communications.
-
-You have the sensor and a microcontroller board (in this repository mostly everything is related to STM32-ULP).
-
 
 ---------------------------
 ## Data Collection and Annotation
@@ -53,13 +45,19 @@ __How the data looks like after annotation of each phase of a chewing sequence:_
 # Feature Engineering 
 ---------------------------
 
-__Transforming raw data into features__
+__1. Transforming raw data into features.__
 
-__The performance of ML models heavily depends on the relevance of the features used to train them.__
+__2. The performance of ML models heavily depends on the relevance of the features used to train them.__
 
-5 processes in feature engineering:
+__3. Five processes in feature engineering:__
+
 -->Feature Creation
+
 -->Feature Transformation
+
 -->Feature Extraction
+
 -->Feature Selection
+
 -->Feature Scaling
+
